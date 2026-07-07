@@ -1,0 +1,64 @@
+{
+  "interactions": [
+    {
+      "drug_a": "warfarin",
+      "drug_b": "aspirin",
+      "severity": "high",
+      "description": "Combined use significantly increases bleeding risk. Requires physician review before continuing both."
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "ibuprofen",
+      "severity": "high",
+      "description": "NSAIDs like ibuprofen increase bleeding risk when taken with warfarin."
+    },
+    {
+      "drug_a": "metformin",
+      "drug_b": "furosemide",
+      "severity": "medium",
+      "description": "Furosemide can affect blood sugar control, requiring closer glucose monitoring."
+    },
+    {
+      "drug_a": "lisinopril",
+      "drug_b": "spironolactone",
+      "severity": "medium",
+      "description": "Both raise potassium levels; combined use risks hyperkalemia, especially in elderly patients."
+    },
+    {
+      "drug_a": "simvastatin",
+      "drug_b": "clarithromycin",
+      "severity": "high",
+      "description": "Clarithromycin raises simvastatin levels, increasing risk of muscle damage (rhabdomyolysis)."
+    },
+    {
+      "drug_a": "digoxin",
+      "drug_b": "furosemide",
+      "severity": "medium",
+      "description": "Furosemide-induced low potassium can increase digoxin toxicity risk."
+    },
+    {
+      "drug_a": "sertraline",
+      "drug_b": "tramadol",
+      "severity": "high",
+      "description": "Combined use raises risk of serotonin syndrome, a potentially life-threatening condition."
+    },
+    {
+      "drug_a": "amlodipine",
+      "drug_b": "simvastatin",
+      "severity": "low",
+      "description": "Amlodipine can modestly raise simvastatin levels; usually manageable with dose limits."
+    },
+    {
+      "drug_a": "insulin",
+      "drug_b": "metoprolol",
+      "severity": "medium",
+      "description": "Beta-blockers like metoprolol can mask symptoms of low blood sugar (hypoglycemia)."
+    },
+    {
+      "drug_a": "levothyroxine",
+      "drug_b": "calcium carbonate",
+      "severity": "low",
+      "description": "Calcium can reduce levothyroxine absorption; recommend spacing doses by 4 hours."
+    }
+  ]
+}
