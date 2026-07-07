@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+patient_data/*.enc
+output/
+venv/
+.venv/
